@@ -1,12 +1,36 @@
 body {
+/*	background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/45544/background-svg.svg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  background: #EFEFBB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
+.blueBackground{
+	background-color: rgba(0, 163, 182, 0.5);
+}
+
+.grayBackground {
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+#fish {
+	max-width: 35%;
+}
+
+/*ul {
+	padding: 10px;
+}
+
 li {
-	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
 li img {
 	max-width: 100px;
 	height: auto;
-}
+}*/
