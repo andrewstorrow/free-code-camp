@@ -1,0 +1,12 @@
+body {
+
+}
+
+li {
+	margin-top: 1rem;
+}
+
+li img {
+	max-width: 100px;
+	height: auto;
+}
